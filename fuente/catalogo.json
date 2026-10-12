@@ -8,92 +8,2721 @@
     "dominio": "https://comerciacor.com"
   },
   "bancos": [
-    {"banco": "Bancolombia", "tipo": "Cuenta corriente", "numero": "681-000022-96", "llave": "0052424405"},
-    {"banco": "Davivienda", "tipo": "Cuenta corriente", "numero": "108969917054", "llave": "0089798979"}
+    {
+      "banco": "Bancolombia",
+      "tipo": "Cuenta corriente",
+      "numero": "681-000022-96",
+      "llave": "0052424405"
+    },
+    {
+      "banco": "Davivienda",
+      "tipo": "Cuenta corriente",
+      "numero": "108969917054",
+      "llave": "0089798979"
+    }
   ],
   "marcas_motos": [
     {
-      "slug": "bajaj", "nombre": "Bajaj", "logo": "bajaj",
+      "slug": "bajaj",
+      "nombre": "Bajaj",
+      "logo": "bajaj",
       "modelos": [
-        {"nombre": "Boxer CT100 KS", "img": "bajaj-boxer-ct100-ks", "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-ks/"},
-        {"nombre": "Boxer CT100 ES", "img": "bajaj-boxer-ct100-es", "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-es/"},
-        {"nombre": "Boxer CT125", "img": "bajaj-boxer-ct125", "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct-125/"},
-        {"nombre": "Boxer 150X", "img": "bajaj-boxer-150x", "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-150x/"},
-        {"nombre": "Discover 125 ST-R Sport", "img": "bajaj-discover-125-st-r", "fabricante": "https://grupouma.com/colombia/motos/discover/discover-125-sport/"},
-        {"nombre": "Pulsar NS 125", "img": "bajaj-pulsar-ns125", "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns-125/"},
-        {"nombre": "Pulsar N125 FI", "img": "bajaj-pulsar-n125-fi", "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-n125-fi/"},
-        {"nombre": "Pulsar NS 160 FI", "img": "bajaj-pulsar-ns160-fi", "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns-160-fi/"},
-        {"nombre": "Pulsar NS200 FI ABS SC", "img": "bajaj-pulsar-ns200-fi-abs", "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns200-fi-abs-sc/"}
+        {
+          "nombre": "Boxer CT100 KS",
+          "img": "bajaj-boxer-ct100-ks",
+          "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-ks/"
+        },
+        {
+          "nombre": "Boxer CT100 ES",
+          "img": "bajaj-boxer-ct100-es",
+          "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-es/"
+        },
+        {
+          "nombre": "Boxer CT125",
+          "img": "bajaj-boxer-ct125",
+          "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct-125/"
+        },
+        {
+          "nombre": "Boxer 150X",
+          "img": "bajaj-boxer-150x",
+          "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-150x/"
+        },
+        {
+          "nombre": "Discover 125 ST-R Sport",
+          "img": "bajaj-discover-125-st-r",
+          "fabricante": "https://grupouma.com/colombia/motos/discover/discover-125-sport/"
+        },
+        {
+          "nombre": "Pulsar NS 125",
+          "img": "bajaj-pulsar-ns125",
+          "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns-125/"
+        },
+        {
+          "nombre": "Pulsar N125 FI",
+          "img": "bajaj-pulsar-n125-fi",
+          "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-n125-fi/"
+        },
+        {
+          "nombre": "Pulsar NS 160 FI",
+          "img": "bajaj-pulsar-ns160-fi",
+          "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns-160-fi/"
+        },
+        {
+          "nombre": "Pulsar NS200 FI ABS SC",
+          "img": "bajaj-pulsar-ns200-fi-abs",
+          "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns200-fi-abs-sc/"
+        }
       ]
     },
     {
-      "slug": "honda", "nombre": "Honda", "logo": "honda",
+      "slug": "honda",
+      "nombre": "Honda",
+      "logo": "honda",
       "modelos": [
-        {"nombre": "XR150L 2.0", "img": "honda-xr150l", "fabricante": "https://motos.honda.com.co/motos-honda/todo-terreno/XR-150L-20"},
-        {"nombre": "XR 190L 2.0", "img": "honda-xr190l", "fabricante": "https://motos.honda.com.co/motos-honda/todo-terreno/XR-190L-20"},
-        {"nombre": "Dio LED STD", "img": "honda-dio-led-std", "fabricante": "https://motos.honda.com.co/motos-honda/scooter-y-semiautomatica/DIO-LED-STD"},
-        {"nombre": "Wave 110S", "img": "honda-wave-110s", "fabricante": "https://motos.honda.com.co/motos-honda/scooter-y-semiautomatica/WAVE-110S"}
+        {
+          "nombre": "XR150L 2.0",
+          "img": "honda-xr150l",
+          "fabricante": "https://motos.honda.com.co/motos-honda/todo-terreno/XR-150L-20"
+        },
+        {
+          "nombre": "XR 190L 2.0",
+          "img": "honda-xr190l",
+          "fabricante": "https://motos.honda.com.co/motos-honda/todo-terreno/XR-190L-20"
+        },
+        {
+          "nombre": "Dio LED STD",
+          "img": "honda-dio-led-std",
+          "fabricante": "https://motos.honda.com.co/motos-honda/scooter-y-semiautomatica/DIO-LED-STD"
+        },
+        {
+          "nombre": "Wave 110S",
+          "img": "honda-wave-110s",
+          "fabricante": "https://motos.honda.com.co/motos-honda/scooter-y-semiautomatica/WAVE-110S"
+        }
       ]
     },
     {
-      "slug": "akt", "nombre": "AKT", "logo": "akt",
+      "slug": "akt",
+      "nombre": "AKT",
+      "logo": "akt",
       "modelos": [
-        {"nombre": "NKD 125 CBS", "img": "akt-nkd-125-cbs", "fabricante": "https://www.aktmotos.com/motos/calle/nkd-125-led"},
-        {"nombre": "Special 110 X CBS", "img": "akt-special-110-x-cbs", "fabricante": "https://www.aktmotos.com/motos/semiautomaticas/special-110-x"},
-        {"nombre": "Dynamic Pro CBS", "img": "akt-dynamic-pro-cbs", "fabricante": "https://www.aktmotos.com/motos/automaticas/dynamic-pro-cbs"}
+        {
+          "nombre": "NKD 125 CBS",
+          "img": "akt-nkd-125-cbs",
+          "fabricante": "https://www.aktmotos.com/motos/calle/nkd-125-led"
+        },
+        {
+          "nombre": "Special 110 X CBS",
+          "img": "akt-special-110-x-cbs",
+          "fabricante": "https://www.aktmotos.com/motos/semiautomaticas/special-110-x"
+        },
+        {
+          "nombre": "Dynamic Pro CBS",
+          "img": "akt-dynamic-pro-cbs",
+          "fabricante": "https://www.aktmotos.com/motos/automaticas/dynamic-pro-cbs"
+        }
       ]
     },
     {
-      "slug": "hero", "nombre": "Hero", "logo": "hero",
+      "slug": "hero",
+      "nombre": "Hero",
+      "logo": "hero",
       "modelos": [
-        {"nombre": "Eco T", "img": "hero-eco-t", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Eco 100", "img": "hero-eco-100", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Eco Deluxe CW", "img": "hero-eco-deluxe-cw", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Eco Deluxe Clásica", "img": "hero-eco-deluxe-clasica", "fabricante": "https://www.heromotos.com.co/eco-deluxe-clasica/"},
-        {"nombre": "Splendor Xpro", "img": "hero-splendor-xpro", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Ignitor 125", "img": "hero-ignitor-125", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Thriller Pro 150", "img": "hero-thriller-pro-150", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Hunk 160", "img": "hero-hunk-160", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Hunk 190", "img": "hero-hunk-190", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Xpulse 200 FI Advance", "img": "hero-xpulse-200-fi", "fabricante": "https://www.heromotos.com.co/"},
-        {"nombre": "Dash 125 FI", "img": "hero-dash-125-fi", "fabricante": "https://www.heromotos.com.co/"}
+        {
+          "nombre": "Eco T",
+          "img": "hero-eco-t",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Eco 100",
+          "img": "hero-eco-100",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Eco Deluxe CW",
+          "img": "hero-eco-deluxe-cw",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Eco Deluxe Clásica",
+          "img": "hero-eco-deluxe-clasica",
+          "fabricante": "https://www.heromotos.com.co/eco-deluxe-clasica/"
+        },
+        {
+          "nombre": "Splendor Xpro",
+          "img": "hero-splendor-xpro",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Ignitor 125",
+          "img": "hero-ignitor-125",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Thriller Pro 150",
+          "img": "hero-thriller-pro-150",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Hunk 160",
+          "img": "hero-hunk-160",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Hunk 190",
+          "img": "hero-hunk-190",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Xpulse 200 FI Advance",
+          "img": "hero-xpulse-200-fi",
+          "fabricante": "https://www.heromotos.com.co/"
+        },
+        {
+          "nombre": "Dash 125 FI",
+          "img": "hero-dash-125-fi",
+          "fabricante": "https://www.heromotos.com.co/"
+        }
       ]
     },
     {
-      "slug": "auteco", "nombre": "Auteco Victory", "logo": "victory",
-      "modelos": [
-        {"nombre": "Victory One MP Trakku", "img": "auteco-victory-one-mp", "fabricante": "https://www.autecomobility.com/moto-victory-one-mp-trakku/p",
-         "nota": "Semiautomática liviana y fácil de manejar para moverse en la ciudad. Por su cilindraje no paga impuesto y su SOAT es de los más económicos.",
-         "specs": [["Cilindraje", "97 cc"], ["Potencia máxima", "5.9 HP @ 7500 rpm"], ["Torque máximo", "6.5 Nm @ 5000 rpm"], ["Transmisión", "Semiautomática, 4 velocidades"], ["Freno delantero", "Disco 220 mm, doble pistón"], ["Freno trasero", "Tambor 110 mm"], ["Tanque", "3.0 L"], ["Peso en seco", "94 kg"], ["Altura al sillín", "750 mm"]]},
-        {"nombre": "Victory Advance R 110 Trakku", "img": "auteco-victory-advance-r-110", "fabricante": "https://www.autecomobility.com/moto-victory-advance-r-110-trakku/p",
-         "specs": [["Cilindraje", "109 cc"], ["Potencia máxima", "8.2 HP @ 7500 rpm"], ["Torque máximo", "7.8 Nm @ 6000 rpm"], ["Transmisión", "Semiautomática, 4 velocidades"], ["Freno delantero", "Disco 220 mm, doble pistón"], ["Freno trasero", "Tambor 110 mm"], ["Rines", "Aspas de aleación"], ["Tanque", "3.7 L"], ["Peso en seco", "97 kg"], ["Conectividad", "Trakku incluido"]]},
-        {"nombre": "Victory Life 125", "img": "auteco-victory-life-125", "fabricante": "https://www.autecomobility.com/moto-victory-life/p",
-         "specs": [["Cilindraje", "124,6 cc"], ["Potencia máxima", "8.4 HP @ 7500 rpm"], ["Torque máximo", "8,7 Nm @ 6500 rpm"], ["Transmisión", "Automática (CVT)"], ["Freno delantero", "Disco, pinza doble pistón"], ["Freno trasero", "Disco"], ["Llantas", "120/70 R12"], ["Tanque", "5,35 L"], ["Peso en seco", "105 kg"]]},
-        {"nombre": "Victory MRX 125", "img": "auteco-victory-mrx-125", "fabricante": "https://www.autecomobility.com/moto-victory-mrx-125/p",
-         "specs": [["Cilindraje", "124.7 cc"], ["Potencia máxima", "9.7 HP @ 7500 rpm"], ["Torque máximo", "9.2 Nm @ 6000 rpm"], ["Transmisión", "Mecánica, 5 velocidades"], ["Freno delantero", "Disco 267 mm"], ["Freno trasero", "Campana 130 mm"], ["Llantas", "90/90 R19 y 110/90 R17"], ["Tanque", "11 L"], ["Peso en seco", "113 kg"]]}
+      "slug": "auteco",
+      "nombre": "Auteco",
+      "logo": "auteco",
+      "descripcion": "Victory, TVS, Kymco y Ceronte: motos y motocarros de la familia Auteco.",
+      "grupos": [
+        {
+          "slug": "victory",
+          "nombre": "Victory",
+          "modelos": [
+            {
+              "nombre": "One MP Trakku",
+              "img": "auteco-victory-one-mp-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-one-mp-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "97 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "5.9 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "6.5 Nm @ 5000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Semiautomática 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm) doble pistón"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (110 mm)"
+                ],
+                [
+                  "Tanque",
+                  "3.0 L (0,8 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "750 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ],
+              "nota": "No paga impuesto de rodamiento."
+            },
+            {
+              "nombre": "MRX Arizona Mobil Trakku",
+              "img": "auteco-victory-mrx-arizona-mobil-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-mrx-arizona-mobil-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199,6 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "17,4 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 6 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 280 mm ABS"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 210 mm ABS"
+                ],
+                [
+                  "Tanque",
+                  "10 L (2,64 gal)"
+                ],
+                [
+                  "Peso",
+                  "146 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "880 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero que se cumpla"
+                ]
+              ]
+            },
+            {
+              "nombre": "MRX 200 Mobil Trakku",
+              "img": "auteco-victory-mrx-200-mobil-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-mrx-200-mobil-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199,6 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "17,4 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 6 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 270 mm ABS"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 210 mm ABS"
+                ],
+                [
+                  "Tanque",
+                  "10 L (2,64 gal)"
+                ],
+                [
+                  "Peso",
+                  "137 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "880 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero que se cumpla"
+                ]
+              ]
+            },
+            {
+              "nombre": "Bet ADV Trakku",
+              "img": "auteco-victory-bet-adv-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-bet-adv-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "174 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "18.2 HP @ 8500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17.2 Nm @ 6500"
+                ],
+                [
+                  "Transmisión",
+                  "Automático (CVT)"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 240 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 220 mm"
+                ],
+                [
+                  "Tanque",
+                  "11,3 L (3 gal)"
+                ],
+                [
+                  "Peso",
+                  "151,6 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "797 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero que se cumpla"
+                ]
+              ]
+            },
+            {
+              "nombre": "X1 FI 125 Trakku",
+              "img": "auteco-victory-x1-fi-125-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-x1-fi-125-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,9 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10.1 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "10.5 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Semiautomática 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 220 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Campana de 110 mm"
+                ],
+                [
+                  "Tanque",
+                  "4L (1 gal)"
+                ],
+                [
+                  "Peso",
+                  "98kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "770 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ],
+              "nota": "No paga impuesto de rodamiento."
+            },
+            {
+              "nombre": "Nitro 125 Trakku",
+              "img": "auteco-victory-nitro-125-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-nitro-125-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,8 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10,72 HP @ 8500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "10 Nm @ 7000rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco delantero lobulado de 240mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (110 mm)"
+                ],
+                [
+                  "Tanque",
+                  "13 L (3,43 gal)"
+                ],
+                [
+                  "Peso",
+                  "120 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "780 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ],
+              "nota": "No paga impuesto de rodamiento."
+            },
+            {
+              "nombre": "Bet ABS Trakku",
+              "img": "auteco-victory-bet-abs-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-bet-abs-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "149,2 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "14,8 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "14 Nm @ 6750 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Automática centrífuga (CVT)"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 270 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 218 mm"
+                ],
+                [
+                  "Tanque",
+                  "9 L (2,37 gal)"
+                ],
+                [
+                  "Peso",
+                  "144 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "770 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "Switch 125 Trakku",
+              "img": "auteco-victory-switch-125-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-switch-125-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,8 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10.7 HP @ 9000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "10 Nm @ 7000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco"
+                ],
+                [
+                  "Tanque",
+                  "7.2 L (1.9 gal)"
+                ],
+                [
+                  "Peso",
+                  "105 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "730 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "Combat 100 Trakku",
+              "img": "auteco-victory-combat-100-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-combat-100-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "99,85 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "8 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Campana"
+                ],
+                [
+                  "Freno trasero",
+                  "Campana"
+                ],
+                [
+                  "Tanque",
+                  "15 L (3.96 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "750 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "MRX 125 S Trakku",
+              "img": "auteco-victory-mrx-125-s-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-mrx-125-s-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "9.7 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "9.2 Nm@ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 267 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Campana 130 mm"
+                ],
+                [
+                  "Tanque",
+                  "11 L (2.90 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "780 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ],
+              "nota": "No paga impuesto de rodamiento."
+            },
+            {
+              "nombre": "MRX Arizona Xplore Trakku",
+              "img": "auteco-victory-mrx-arizona-xplore-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-mrx-arizona-xplore-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199,5 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "17,4 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 6 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 280 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 210 mm"
+                ],
+                [
+                  "Tanque",
+                  "16 L (4,2 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "860 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "MRX 150 Trakku",
+              "img": "auteco-victory-mrx-150-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-mrx-150-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "149,2 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10,5 HP @ 7000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "11.5 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (260 mm) doble pistón"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (260 mm) doble pistón"
+                ],
+                [
+                  "Tanque",
+                  "12 l (3,17 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "870 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "New Life Trakku",
+              "img": "auteco-victory-new-life-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-new-life-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,6 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "8.4 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8,7 Nm @ 6500rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Automática centrífuga (CVT)"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco, pinza doble pistón"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco central"
+                ],
+                [
+                  "Tanque",
+                  "5,35 L (1,41 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "810 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ],
+              "nota": "No paga impuesto de rodamiento."
+            },
+            {
+              "nombre": "MRX 200 Trakku",
+              "img": "auteco-victory-mrx-200-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-mrx-200-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199,6 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "17,4 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 6 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 265 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 220 mm"
+                ],
+                [
+                  "Tanque",
+                  "10 L (2,64 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "860 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "MRX Arizona Trakku",
+              "img": "auteco-victory-mrx-arizona-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-mrx-arizona-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199,5 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "17,4 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 6 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 280 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 210 mm"
+                ],
+                [
+                  "Tanque",
+                  "16 L (4,2 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "860 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "Venom 14 Trakku",
+              "img": "auteco-victory-venom-14-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-venom-14-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "149,4 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "12,7 HP @ 8500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "12 Nm @ 7000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 256 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 220 mm"
+                ],
+                [
+                  "Tanque",
+                  "15 L (3,96 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "790 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "Venom 18 Trakku",
+              "img": "auteco-victory-venom-18-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-venom-18-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199,5 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "15,8 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "15,5 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 256 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 220 mm"
+                ],
+                [
+                  "Tanque",
+                  "14L (3,7 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "Venom 250S Trakku",
+              "img": "auteco-victory-venom-250s-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-venom-250s-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "250 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "20.1 HP @ 8500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "20 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 6 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco lobulado de 300 mm, con mordaza de 2 pistones"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco lobulado de 240 mm, morzada doble pisto de doble acción"
+                ],
+                [
+                  "Tanque",
+                  "15L (3,96 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "Advance R 125 Trakku",
+              "img": "auteco-victory-advance-r-125-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-advance-r-125-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "8,7HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8,7 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Semiautomática 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 220mm. Pinza doble pistón"
+                ],
+                [
+                  "Freno trasero",
+                  "Bandas expandibles de 110 mm"
+                ],
+                [
+                  "Tanque",
+                  "3,7 L (0,97 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "770 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "MRX 125 Trakku",
+              "img": "auteco-victory-mrx-125-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-victory-mrx-125-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "9.7 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "9.2 Nm@ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 267 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco"
+                ],
+                [
+                  "Tanque",
+                  "11 L (2.90 gal)"
+                ],
+                [
+                  "Peso",
+                  "117"
+                ],
+                [
+                  "Altura al sillín",
+                  "840 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ],
+              "nota": "No paga impuesto de rodamiento."
+            }
+          ]
+        },
+        {
+          "slug": "tvs",
+          "nombre": "TVS",
+          "modelos": [
+            {
+              "nombre": "Neo NX 125 FI",
+              "img": "auteco-tvs-neo-nx-125-fi",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-neo-nx-125-fi/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,5 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "9,25 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "9,3 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Semiautomática 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 220 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Campana 130 mm"
+                ],
+                [
+                  "Tanque",
+                  "4,6 Lt"
+                ],
+                [
+                  "Peso",
+                  "106 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "767 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache 160 FI NG",
+              "img": "auteco-tvs-apache-160-fi-ng",
+              "fabricante": "https://www.auteco.com.co/apache-160-fi-ng/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "159,7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "17,3 HP @ 9250 rpm - Sport mode"
+                ],
+                [
+                  "Torque máximo",
+                  "14.73 Nm @ 7500 rpm - Sport mode"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 270 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco 240 mm"
+                ],
+                [
+                  "Tanque",
+                  "12 Lt (3,17 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache 200 FI NG",
+              "img": "auteco-tvs-apache-200-fi-ng",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-apache-200-fi-ng/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "197.75 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "20.54 HP @ 9000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17.25 Nm @ 7250 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 270 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco 240 mm"
+                ],
+                [
+                  "Tanque",
+                  "12 Lt (3,17 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Sport 110 FI",
+              "img": "auteco-tvs-sport-110-fi",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-sport-110-fi/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "109,7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "8,1 HP @ 7350 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8,4 Nm @ 4500 rpm"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 240 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Campana 110 mm"
+                ],
+                [
+                  "Tanque",
+                  "10 L (2,64 gal)"
+                ],
+                [
+                  "Peso",
+                  "114 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache 160 Carburada ABS",
+              "img": "auteco-tvs-apache-160-carburada-abs",
+              "fabricante": "https://www.auteco.com.co/apache-rtr-160-4v-xconnect-abs/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "159.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "16.3 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "14.8 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (270 mm), pinza plotante de 2 émbolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (200 mm), pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Tanque",
+                  "12 L (3.17 gal)"
+                ],
+                [
+                  "Peso",
+                  "145 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "810 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache 200 Carburada ABS",
+              "img": "auteco-tvs-apache-200-carburada-abs",
+              "fabricante": "https://www.auteco.com.co/apache-rtr-200-4v-xconnect-abs-1/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "197.75 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "20.24 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "18.1 Nm @ 7000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (270 mm), pinza flotante de 2 émbolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (240 mm), pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Tanque",
+                  "12 l (3.17 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache 200 FI Edición Especial",
+              "img": "auteco-tvs-apache-200-fi-edicion-especial",
+              "fabricante": "https://www.auteco.com.co/apache-200-fi-abs-edicion-especial-1/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "197.75 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "20.54 HP @ 9000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17.25 Nm @ 7250 rpm"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco lobulado (270 mm), pinza flotante de 2 émbolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco lobulado (240 mm), pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Tanque",
+                  "12 L (3.17 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache 160 FI ABS Edición Especial",
+              "img": "auteco-tvs-apache-160-fi-abs-edicion-especial",
+              "fabricante": "https://www.auteco.com.co/apache-160-fi-abs-edicion-especial-1/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "159.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "16.3 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "14.8 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (270 mm), pinza plotante de 2 émbolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (200 mm), pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Tanque",
+                  "12 l (3.17 gal)"
+                ],
+                [
+                  "Peso",
+                  "145 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "810 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "iQube",
+              "img": "auteco-tvs-iqube",
+              "fabricante": "https://www.auteco.com.co/moto-electrica-tvs-iqube/p",
+              "tipo": "moto eléctrica",
+              "specs": [
+                [
+                  "Torque máximo",
+                  "140 N-m"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 220 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor 130 mm"
+                ],
+                [
+                  "Autonomía",
+                  "100 km en ECO 75 km en POWER"
+                ]
+              ]
+            },
+            {
+              "nombre": "Raider 125 FI",
+              "img": "auteco-tvs-raider-125-fi",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-raider-125-fi/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.8 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "11.22 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "11.2 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 240 mm, SBT"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor de 130 mm, SBT"
+                ],
+                [
+                  "Tanque",
+                  "10 l (2.64 gal)"
+                ]
+              ]
+            },
+            {
+              "nombre": "Neo NX 110 Edición Especial",
+              "img": "auteco-tvs-neo-nx-110-edicion-especial",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-neo-nx-110-edicion-especial/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "109.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "8.44 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8.5 Nm @ 4500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Semiautomática"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm), pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (110 mm)"
+                ],
+                [
+                  "Tanque",
+                  "4l (1.06 gal)"
+                ],
+                [
+                  "Peso",
+                  "103 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "760 mm"
+                ]
+              ],
+              "nota": "No paga impuesto de rodamiento."
+            },
+            {
+              "nombre": "Apache RTR 310 PRM",
+              "img": "auteco-tvs-apache-rtr-310-prm",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-apache-rtr-310-prm/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "312.12 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "35.6 @ 9700 sport/track mode"
+                ],
+                [
+                  "Torque máximo",
+                  "28.7 @ 6650 sport/track mode"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 6 velocidades + Quick shifter"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (300 mm)"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (300 mm)"
+                ],
+                [
+                  "Tanque",
+                  "11 l (2.9 gal)"
+                ],
+                [
+                  "Peso",
+                  "170 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache RTR 160 4V XC FI Racing",
+              "img": "auteco-tvs-apache-rtr-160-4v-xc-fi-racing",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-apache-160-4v-xc-fi-racing/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "159.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "16.3 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "14.8 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (270 mm), pinza plotante de 2 émbolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (200 mm), pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Tanque",
+                  "12 l (3.17 gal)"
+                ],
+                [
+                  "Peso",
+                  "145 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "810 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Sport 100 KLS",
+              "img": "auteco-tvs-sport-100-kls",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-sport-100-kls/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "99.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "7.38 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "7.5 Nm @ 5000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor, 130 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor, 110 mm"
+                ],
+                [
+                  "Tanque",
+                  "10 l (2.64 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "780 mm"
+                ]
+              ],
+              "nota": "No paga impuesto de rodamiento."
+            },
+            {
+              "nombre": "Apache RTR 310",
+              "img": "auteco-tvs-apache-rtr-310",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-apache-rtr-310/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "312.12 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "35.6 @ 9700 sport/track mode"
+                ],
+                [
+                  "Torque máximo",
+                  "28.7 @ 6650 sport/track mode"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 6 velocidades + Quick shifter"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (300 mm)"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (240 mm)"
+                ],
+                [
+                  "Tanque",
+                  "11 l (2.9 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Sport 100 ELS",
+              "img": "auteco-tvs-sport-100-els",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-sport-100-els/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "99.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "7.38 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "7.5 Nm @ 5000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor, 130 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor, 110 mm"
+                ],
+                [
+                  "Tanque",
+                  "11 L (2.64 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "780 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Ronin 225 TD",
+              "img": "auteco-tvs-ronin-225-td",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-ronin-225-td/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "225.9 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "20.13 @ 7750 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "19,93 @ 3750 rom"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (300 mm)"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (240 mm)"
+                ],
+                [
+                  "Tanque",
+                  "14 l (3.7 gal)"
+                ],
+                [
+                  "Peso",
+                  "160 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "795 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Raider 125 Racing",
+              "img": "auteco-tvs-raider-125-racing",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-raider-125-racing/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.79 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "12.73 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "11.5 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (240 mm), pinza flotante de 2 émobolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (130 mm)"
+                ],
+                [
+                  "Tanque",
+                  "10 l (2.64 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "781 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Raider 125",
+              "img": "auteco-tvs-raider-125",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-raider-125/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.79 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "12.73 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "11.5 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (240 mm), pinza flotante de 2 émobolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (130 mm)"
+                ],
+                [
+                  "Tanque",
+                  "10 l (2.64 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "781 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Ntorq 125 Xconnect",
+              "img": "auteco-tvs-ntorq-125-xconnect",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-ntorq-xconnect-125/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.79 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "9.25 @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "10.5 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Automática"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm) pinza fija de 1 émbolo"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (130 mm)"
+                ],
+                [
+                  "Tanque",
+                  "5 L (1.32 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "790 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Ntorq 125 Xconnect FI",
+              "img": "auteco-tvs-ntorq-125-xconnect-fi",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-ntorq-125-xconnect-fi/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.79 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "9.25 @ 7000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "10.5 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Automática"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm) pinza fija de 1 émbolo"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (130 mm)"
+                ],
+                [
+                  "Tanque",
+                  "5 L (1.32 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "790 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Neo NX 110",
+              "img": "auteco-tvs-neo-nx-110",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-neo-nx-110/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "109.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "8.44 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8.5 Nm @ 4500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Semi-automática"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm) pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (110 mm)"
+                ],
+                [
+                  "Tanque",
+                  "4l (1.06 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "760 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Dazz 110",
+              "img": "auteco-tvs-dazz-110",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-dazz-110/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "109.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "7,9 HP@ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8.3 Nm@ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Automática"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor o campana"
+                ],
+                [
+                  "Tanque",
+                  "5,3 L (1,4 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "780mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache RTR 160 4V XC FI",
+              "img": "auteco-tvs-apache-rtr-160-4v-xc-fi",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-apache-rtr-160-4v-fi/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "159.7 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "17.3 HP @ 9250 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "14.7 Nm @ 7250 rpm (MODO SPORT) 14.1 Nm @ 7250 rpm (MODO URBAN - LLUVIA)"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (270 mm) pinza flotante de 2 émbolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco (200 mm), pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Tanque",
+                  "12 l (3.17 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "810 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Apache RTR 200 4V XC FI ABS",
+              "img": "auteco-tvs-apache-rtr-200-4v-xc-fi-abs",
+              "fabricante": "https://www.auteco.com.co/moto-tvs-apache-200-4v-xc-fi-abs/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "197.75 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "20.54 HP @ 9000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17.25 Nm @ 7250 rpm"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco lobulado (270 mm), pinza flotante de 2 émbolos"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco lobulado (240 mm), pinza flotante de 1 émbolo"
+                ],
+                [
+                  "Tanque",
+                  "12 L (3.17 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "800 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "King Deluxe Plus GS+ Full",
+              "img": "auteco-tvs-king-deluxe-plus-gs-full",
+              "fabricante": "https://www.auteco.com.co/motocarro-tvs-king-gs-mas-full/p",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199.26 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10.06 HP @ 5500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "15.5 Nm @ 3250 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor"
+                ],
+                [
+                  "Tanque",
+                  "7.5 L (1.98 gal)"
+                ],
+                [
+                  "Peso",
+                  "347 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "King Deluxe Plus GS+ Especial",
+              "img": "auteco-tvs-king-deluxe-plus-gs-especial",
+              "fabricante": "https://www.auteco.com.co/motocarro-tvs-king-gs-mas-especial/p",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199.26 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10.06 HP @ 5500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "15.5 Nm @ 3250 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor"
+                ],
+                [
+                  "Tanque",
+                  "7.5 L (1.98 gal)"
+                ],
+                [
+                  "Peso",
+                  "347 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "King Deluxe Plus GS+",
+              "img": "auteco-tvs-king-deluxe-plus-gs",
+              "fabricante": "https://www.auteco.com.co/motocarro-tvs-king-gs-mas/p",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199.26 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10.06 HP @ 5500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "15.5 Nm @ 3250 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 4 velocidades"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor"
+                ],
+                [
+                  "Tanque",
+                  "7.5 L (1.98 gal)"
+                ],
+                [
+                  "Peso",
+                  "347 kg"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "kymco",
+          "nombre": "Kymco",
+          "modelos": [
+            {
+              "nombre": "Agility Fusion Trakku",
+              "img": "auteco-kymco-agility-fusion-trakku",
+              "fabricante": "https://www.auteco.com.co/moto-kymco-agility-fusion-trakku/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.6 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "9.3 HP @ 7000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "9.1 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Automática centrífuga (CVT)"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 200 mm Doble pistón"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco"
+                ],
+                [
+                  "Tanque",
+                  "5 l (1,32 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "780 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            },
+            {
+              "nombre": "Agility Fusion",
+              "img": "auteco-kymco-agility-fusion",
+              "fabricante": "https://www.auteco.com.co/moto-kymco-agility-fusion/p",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.6 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "9.3 HP @ 7000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "9.1 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Automática centrífuga (CVT)"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 200 mm Doble pistón"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco"
+                ],
+                [
+                  "Tanque",
+                  "5 l (1,32 gal)"
+                ],
+                [
+                  "Altura al sillín",
+                  "780 mm"
+                ],
+                [
+                  "Garantía",
+                  "24 meses o 24.000 km lo primero en cumplirse"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "ceronte",
+          "nombre": "Ceronte",
+          "modelos": [
+            {
+              "nombre": "300 Chasis",
+              "img": "auteco-ceronte-300-chasis",
+              "fabricante": "https://www.auteco.com.co/motocarro-ceronte-300-chasis/p",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "272 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "18,8 HP @ 7000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "21 Nm @ 4500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades + Booster"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm)"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (220 mm)"
+                ],
+                [
+                  "Capacidad de carga",
+                  "1 tonelada"
+                ],
+                [
+                  "Tanque",
+                  "14 L (3,43 gal)"
+                ],
+                [
+                  "Peso",
+                  "634 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "820 mm"
+                ],
+                [
+                  "Garantía",
+                  "12 meses o 20.000 km lo primero que se cumpla"
+                ]
+              ]
+            },
+            {
+              "nombre": "300 Chasis Hidráulico",
+              "img": "auteco-ceronte-300-chasis-hidraulico",
+              "fabricante": "https://www.auteco.com.co/motocarro-ceronte-300-chasis-hidraulico/p",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "272 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "18,8 HP @ 7000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "21 Nm @ 4500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades + Booster"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm)"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (220 mm)"
+                ],
+                [
+                  "Capacidad de carga",
+                  "1 tonelada"
+                ],
+                [
+                  "Tanque",
+                  "15 L (3,43 gal)"
+                ],
+                [
+                  "Peso",
+                  "634 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "820 mm"
+                ],
+                [
+                  "Garantía",
+                  "12 meses o 20.000 km lo primero que se cumpla"
+                ]
+              ]
+            },
+            {
+              "nombre": "Tricargo 300 con Gato Hidráulico",
+              "img": "auteco-ceronte-tricargo-300-con-gato-hidraulico",
+              "fabricante": "https://www.auteco.com.co/motocarro-ceronte-tricargo-300-gato-hidraulico/p",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "272 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "18,8 HP @ 7000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "21 Nm @ 4500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades + Booster"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm)"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (220 mm)"
+                ],
+                [
+                  "Tanque",
+                  "23 L (6,1 gal)"
+                ],
+                [
+                  "Peso",
+                  "634 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "820 mm"
+                ],
+                [
+                  "Garantía",
+                  "12 meses o 20.000 km lo primero que se cumpla"
+                ]
+              ]
+            },
+            {
+              "nombre": "Tricargo 300",
+              "img": "auteco-ceronte-tricargo-300",
+              "fabricante": "https://www.auteco.com.co/motocarro-ceronte-tricargo-300/p",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "272 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "18,8 HP @ 7000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "21 Nm @ 4500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica 5 velocidades + Booster"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco (220 mm)"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor (220 mm)"
+                ],
+                [
+                  "Tanque",
+                  "23 L (6,1 gal)"
+                ],
+                [
+                  "Peso",
+                  "634 kg"
+                ],
+                [
+                  "Altura al sillín",
+                  "820 mm"
+                ],
+                [
+                  "Garantía",
+                  "12 meses o 20.000 km lo primero que se cumpla"
+                ]
+              ]
+            },
+            {
+              "nombre": "Tricargo 200 Refrigerado por Aceite",
+              "img": "auteco-ceronte-tricargo-200-refrigerado-por-aceite",
+              "fabricante": "https://www.auteco.com.co/motocarro-tricargo-200-refrijerado-por-aceite/p",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "197 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "13.4 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "13.5 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "Mecánica de 5 marchas + Booster"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco"
+                ],
+                [
+                  "Freno trasero",
+                  "Campana"
+                ],
+                [
+                  "Capacidad de carga",
+                  "480 kg"
+                ],
+                [
+                  "Tanque",
+                  "16 Litros (4.22 gal)"
+                ],
+                [
+                  "Peso",
+                  "380"
+                ],
+                [
+                  "Altura al sillín",
+                  "845 mm"
+                ],
+                [
+                  "Garantía",
+                  "12 meses o 20.000 km lo primero que se cumpla"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "slug": "yamaha", "nombre": "Yamaha", "logo": "yamaha",
+      "slug": "yamaha",
+      "nombre": "Yamaha",
+      "logo": "yamaha",
       "modelos": [
-        {"nombre": "Crypton Finn CBS", "img": "yamaha-crypton-finn", "fabricante": "https://www.incolmotos-yamaha.com.co/vehiculo/t115finn/29453/"},
-        {"nombre": "NMAX", "img": "yamaha-nmax", "fabricante": "https://www.incolmotos-yamaha.com.co/vehiculo/gpd155a/15956/"}
+        {
+          "nombre": "Crypton Finn CBS",
+          "img": "yamaha-crypton-finn",
+          "fabricante": "https://www.incolmotos-yamaha.com.co/vehiculo/t115finn/29453/"
+        },
+        {
+          "nombre": "NMAX",
+          "img": "yamaha-nmax",
+          "fabricante": "https://www.incolmotos-yamaha.com.co/vehiculo/gpd155a/15956/"
+        }
       ]
     },
     {
-      "slug": "suzuki", "nombre": "Suzuki", "logo": "suzuki",
+      "slug": "suzuki",
+      "nombre": "Suzuki",
+      "logo": "suzuki",
       "modelos": [
-        {"nombre": "DR 150 FI ABS", "img": "suzuki-dr150-fi-abs", "fabricante": "https://suzuki.com.co/motocicletas/enduro/dr-150-fi-abs"}
+        {
+          "nombre": "DR 150 FI ABS",
+          "img": "suzuki-dr150-fi-abs",
+          "fabricante": "https://suzuki.com.co/motocicletas/enduro/dr-150-fi-abs"
+        }
       ]
     }
   ],
   "tecnologia": {
     "destacado": {
-      "nombre": "Portátil HP 14-DQ0517LA", "img": "hp-14-dq0517la",
-      "specs": [["Procesador", "Intel Celeron N4120 (hasta 2,6 GHz)"], ["Almacenamiento", "256 GB PCIe NVMe M.2"], ["Memoria RAM", "4 GB DDR4-2400"], ["Pantalla", "14\" HD (1366 × 768)"], ["Gráficos", "Intel UHD 600"], ["Puertos", "2 USB 3.1, 1 USB 2.0, HDMI, audio 3,5 mm"], ["Sistema", "Windows 10 y Office (Word, Excel) sin costo adicional"], ["Garantía", "12 meses directamente con el fabricante"]]
+      "nombre": "Portátil HP 14-DQ0517LA",
+      "img": "hp-14-dq0517la",
+      "specs": [
+        [
+          "Procesador",
+          "Intel Celeron N4120 (hasta 2,6 GHz)"
+        ],
+        [
+          "Almacenamiento",
+          "256 GB PCIe NVMe M.2"
+        ],
+        [
+          "Memoria RAM",
+          "4 GB DDR4-2400"
+        ],
+        [
+          "Pantalla",
+          "14\" HD (1366 × 768)"
+        ],
+        [
+          "Gráficos",
+          "Intel UHD 600"
+        ],
+        [
+          "Puertos",
+          "2 USB 3.1, 1 USB 2.0, HDMI, audio 3,5 mm"
+        ],
+        [
+          "Sistema",
+          "Windows 10 y Office (Word, Excel) sin costo adicional"
+        ],
+        [
+          "Garantía",
+          "12 meses directamente con el fabricante"
+        ]
+      ]
     },
     "marcas": [
-      ["hp", "HP"], ["lenovo", "Lenovo"], ["acer", "Acer"], ["asus", "Asus"], ["epson", "Epson"], ["samsung", "Samsung"], ["lg", "LG"], ["sony", "Sony"], ["panasonic", "Panasonic"], ["kalley", "Kalley"], ["challenger", "Challenger"], ["mabe", "Mabe"], ["haceb", "Haceb"], ["singer", "Singer"], ["abba", "Abba"], ["primaflex", "Colchones Primaflex"]
+      [
+        "hp",
+        "HP"
+      ],
+      [
+        "lenovo",
+        "Lenovo"
+      ],
+      [
+        "acer",
+        "Acer"
+      ],
+      [
+        "asus",
+        "Asus"
+      ],
+      [
+        "epson",
+        "Epson"
+      ],
+      [
+        "samsung",
+        "Samsung"
+      ],
+      [
+        "lg",
+        "LG"
+      ],
+      [
+        "sony",
+        "Sony"
+      ],
+      [
+        "panasonic",
+        "Panasonic"
+      ],
+      [
+        "kalley",
+        "Kalley"
+      ],
+      [
+        "challenger",
+        "Challenger"
+      ],
+      [
+        "mabe",
+        "Mabe"
+      ],
+      [
+        "haceb",
+        "Haceb"
+      ],
+      [
+        "singer",
+        "Singer"
+      ],
+      [
+        "abba",
+        "Abba"
+      ],
+      [
+        "primaflex",
+        "Colchones Primaflex"
+      ]
     ]
   }
 }

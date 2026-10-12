@@ -153,12 +153,18 @@ def pagina(ruta, titulo, descripcion, actual, cuerpo, extra_head=""):
 rutas = []
 
 # ---------------- Inicio ----------------
-logos = "".join(
-    f'<a class="marca" href="/{m["slug"]}/"><img src="/assets/img/marcas/{m["logo"]}.webp" alt="{e(m["nombre"])}" loading="lazy"></a>'
-    for m in datos["marcas_motos"]
-)
-for extra, nombre in [("tvs", "TVS"), ("ceronte", "Ceronte")]:
-    logos += f'<span class="marca"><img src="/assets/img/marcas/{extra}.webp" alt="{nombre}" loading="lazy"></span>'
+logos = ""
+for m in datos["marcas_motos"]:
+    if m.get("grupos"):
+        # Las marcas de Auteco enlazan a su sección dentro de la página /auteco/
+        for g in m["grupos"]:
+            img = SITIO / "assets" / "img" / "marcas" / f'{g["slug"]}.webp'
+            if img.exists():
+                logos += f'<a class="marca" href="/{m["slug"]}/#{g["slug"]}"><img src="/assets/img/marcas/{g["slug"]}.webp" alt="{e(g["nombre"])}" loading="lazy"></a>'
+            else:
+                logos += f'<a class="marca marca-texto" href="/{m["slug"]}/#{g["slug"]}">{e(g["nombre"])}</a>'
+    else:
+        logos += f'<a class="marca" href="/{m["slug"]}/"><img src="/assets/img/marcas/{m["logo"]}.webp" alt="{e(m["nombre"])}" loading="lazy"></a>'
 
 ld = {
     "@context": "https://schema.org",
@@ -246,56 +252,91 @@ inicio = f"""
 """
 rutas.append(pagina(
     "/", "COMERCIACOR | Crédito para motos, electrodomésticos y tecnología",
-    "Financia tu moto fácil y rápido con COMERCIACOR. Crédito para motos Bajaj, Honda, AKT, Hero, Victory, Yamaha y Suzuki, electrodomésticos y tecnología.",
+    "Financia tu moto fácil y rápido con COMERCIACOR. Crédito para motos Bajaj, Honda, AKT, Hero, Victory, TVS, Kymco, Yamaha y Suzuki, electrodomésticos y tecnología.",
     "inicio", inicio,
     f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'))
 
 # ---------------- Marcas de motos ----------------
+def tarjeta(mod, etiqueta_marca, nivel="h2"):
+    """Tarjeta de un modelo. etiqueta_marca es la marca que se muestra (Bajaj, Victory, TVS...)."""
+    base = etiqueta_marca.split()[0]
+    nombre_completo = mod["nombre"] if mod["nombre"].lower().startswith(base.lower()) else f'{base} {mod["nombre"]}'
+    tipo = mod.get("tipo", "moto")
+    ficha = ""
+    if mod.get("specs"):
+        filas = "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in mod["specs"])
+        ficha = f'<details class="ficha"><summary>Características técnicas</summary><dl>{filas}</dl></details>'
+    nota = f'<p class="moto-nota">{e(mod["nota"])}</p>' if mod.get("nota") else ""
+    etiqueta_tipo = "" if tipo == "moto" else f' · {tipo.capitalize()}'
+    return f"""
+      <article class="moto">
+        <div class="moto-foto"><img src="/assets/img/motos/{mod["img"]}.webp" alt="{e(tipo.capitalize())} {e(nombre_completo)}" loading="lazy"></div>
+        <div class="moto-cuerpo">
+          <p class="moto-marca">{e(etiqueta_marca)}{e(etiqueta_tipo)}</p>
+          <{nivel}>{e(mod["nombre"])}</{nivel}>
+          {nota}{ficha}
+          <div class="moto-acciones">
+            {boton_wa(f"Hola, quiero cotizar la {tipo} {nombre_completo} a crédito.", "Cotizar a crédito")}
+            <a class="enlace-fab" href="{e(mod["fabricante"])}" target="_blank" rel="noopener">Ver ficha del fabricante</a>
+          </div>
+        </div>
+      </article>"""
+
+
 for marca in datos["marcas_motos"]:
     filtro = "".join(
         f'<a href="/{m["slug"]}/"{CUR if m["slug"] == marca["slug"] else ""}>{e(m["nombre"])}</a>'
         for m in datos["marcas_motos"]
     )
-    tarjetas = []
-    for mod in marca["modelos"]:
-        nombre_completo = f'{marca["nombre"].split()[0]} {mod["nombre"]}' if not mod["nombre"].lower().startswith("victory") else mod["nombre"]
-        ficha = ""
-        if mod.get("specs"):
-            filas = "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in mod["specs"])
-            ficha = f'<details class="ficha"><summary>Características técnicas</summary><dl>{filas}</dl></details>'
-        nota = f'<p class="moto-nota">{e(mod["nota"])}</p>' if mod.get("nota") else ""
-        tarjetas.append(f"""
-      <article class="moto">
-        <div class="moto-foto"><img src="/assets/img/motos/{mod["img"]}.webp" alt="Moto {e(nombre_completo)}" loading="lazy"></div>
-        <div class="moto-cuerpo">
-          <p class="moto-marca">{e(marca["nombre"])}</p>
-          <h2>{e(mod["nombre"])}</h2>
-          {nota}{ficha}
-          <div class="moto-acciones">
-            {boton_wa(f"Hola, quiero cotizar la moto {nombre_completo} a crédito.", "Cotizar a crédito")}
-            <a class="enlace-fab" href="{e(mod["fabricante"])}" target="_blank" rel="noopener">Ver ficha del fabricante</a>
-          </div>
-        </div>
-      </article>""")
+    if marca.get("grupos"):
+        saltos = "".join(f'<a href="#{g["slug"]}">{e(g["nombre"])}</a>' for g in marca["grupos"])
+        secciones = []
+        for g in marca["grupos"]:
+            n = len(g["modelos"])
+            secciones.append(f"""
+<section class="seccion grupo" id="{g["slug"]}" aria-labelledby="titulo-{g["slug"]}">
+  <div class="contenedor">
+    <div class="grupo-cabecera">
+      <h2 class="placa placa-grupo" id="titulo-{g["slug"]}">{e(g["nombre"])}</h2>
+      <p>{n} {"modelo" if n == 1 else "modelos"}</p>
+    </div>
+    <div class="catalogo">{"".join(tarjeta(m, g["nombre"], "h3") for m in g["modelos"])}
+    </div>
+  </div>
+</section>""")
+        contenido = "".join(secciones)
+        intro = e(marca.get("descripcion", ""))
+        extra_nav = f'<nav class="filtro-marcas saltos" aria-label="Marcas en esta página">{saltos}</nav>'
+        todos = [m for g in marca["grupos"] for m in g["modelos"]]
+    else:
+        contenido = f"""
+<section class="seccion">
+  <div class="contenedor">
+    <div class="catalogo">{"".join(tarjeta(m, marca["nombre"]) for m in marca["modelos"])}
+    </div>
+  </div>
+</section>"""
+        intro = "Pregunta por tu crédito para moto y cotiza con nosotros por WhatsApp."
+        extra_nav = ""
+        todos = marca["modelos"]
     cuerpo = f"""
 <section class="cabecera-pagina">
   <div class="contenedor">
     <p class="migas"><a href="/">Inicio</a> / Motos / {e(marca["nombre"])}</p>
     <h1 class="placa placa-titulo">{e(marca["nombre"])}</h1>
-    <p>Pregunta por tu crédito para moto y cotiza con nosotros por WhatsApp.</p>
+    <p>{intro}</p>
+    {extra_nav}
     <nav class="filtro-marcas" aria-label="Otras marcas">{filtro}</nav>
   </div>
-</section>
-<section class="seccion">
-  <div class="contenedor">
-    <div class="catalogo">{"".join(tarjetas)}
-    </div>
-  </div>
-</section>"""
-    modelos = ", ".join(m["nombre"] for m in marca["modelos"][:4])
+</section>{contenido}"""
+    modelos = ", ".join(m["nombre"] for m in todos[:4])
+    nombre_seo = marca["nombre"]
+    if marca.get("grupos"):
+        partes = [g["nombre"] for g in marca["grupos"]]
+        nombre_seo = ", ".join(partes[:-1]) + " y " + partes[-1]
     rutas.append(pagina(
-        f'/{marca["slug"]}/', f'Motos {marca["nombre"]} a crédito | COMERCIACOR',
-        f'Compra tu moto {marca["nombre"]} a crédito con COMERCIACOR: {modelos} y más. Cotiza por WhatsApp.',
+        f'/{marca["slug"]}/', f'Motos {nombre_seo} a crédito | COMERCIACOR',
+        f'Compra tu moto {nombre_seo} a crédito con COMERCIACOR: {modelos} y más. Cotiza por WhatsApp.',
         marca["slug"], cuerpo))
 
 # ---------------- Tecnología ----------------
