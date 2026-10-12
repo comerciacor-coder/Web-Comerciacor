@@ -19,4 +19,4 @@ ACEPTACIONES Y DECLARACIONES
 En caso de tener cualquier inquietud respecto de la información acá presentada, así como para ejercer tus derechos respecto de los Datos Personales entregados, podrás contactarnos por medio de los siguientes canales:
 Link: https://comerciacor.com
 Teléfono: +57 (305 2386430)
-Correo: [email protected]
+Correo: comerciacor@gmail.com
