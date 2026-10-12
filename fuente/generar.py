@@ -155,7 +155,7 @@ rutas = []
 # ---------------- Inicio ----------------
 logos = ""
 for m in datos["marcas_motos"]:
-    if m.get("grupos"):
+    if m.get("grupos") and m.get("logos_en_inicio"):
         # Las marcas de Auteco enlazan a su sección dentro de la página /auteco/
         for g in m["grupos"]:
             img = SITIO / "assets" / "img" / "marcas" / f'{g["slug"]}.webp'
@@ -191,7 +191,7 @@ inicio = f"""
       </div>
     </div>
     <div class="portada-visual">
-      <img src="/assets/img/motos/bajaj-pulsar-ns160-fi.webp" alt="Motocicleta Bajaj Pulsar NS 160 FI" width="800" height="600" fetchpriority="high">
+      <img src="/assets/img/portada-moto.webp" alt="Motocicleta Bajaj Pulsar NS 160 FI" width="800" height="600" fetchpriority="high">
       <div class="carretera" aria-hidden="true"></div>
       <a class="placa" href="{e(wa("Hola, quiero información sobre el crédito para moto."))}" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp al {e(EMP['whatsapp_visible'])}">
         <span class="placa-numero">{e(EMP["whatsapp_visible"])}</span>
@@ -300,7 +300,7 @@ for marca in datos["marcas_motos"]:
       <h2 class="placa placa-grupo" id="titulo-{g["slug"]}">{e(g["nombre"])}</h2>
       <p>{n} {"modelo" if n == 1 else "modelos"}</p>
     </div>
-    <div class="catalogo">{"".join(tarjeta(m, g["nombre"], "h3") for m in g["modelos"])}
+    <div class="catalogo">{"".join(tarjeta(m, g.get("etiqueta", g["nombre"]), "h3") for m in g["modelos"])}
     </div>
   </div>
 </section>""")
@@ -330,8 +330,8 @@ for marca in datos["marcas_motos"]:
   </div>
 </section>{contenido}"""
     modelos = ", ".join(m["nombre"] for m in todos[:4])
-    nombre_seo = marca["nombre"]
-    if marca.get("grupos"):
+    nombre_seo = marca.get("nombre_seo", marca["nombre"])
+    if marca.get("grupos") and not marca.get("nombre_seo"):
         partes = [g["nombre"] for g in marca["grupos"]]
         nombre_seo = ", ".join(partes[:-1]) + " y " + partes[-1]
     rutas.append(pagina(

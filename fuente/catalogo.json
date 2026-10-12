@@ -26,53 +26,961 @@
       "slug": "bajaj",
       "nombre": "Bajaj",
       "logo": "bajaj",
-      "modelos": [
+      "descripcion": "Motos Boxer, Discover, Pulsar y Dominar, y los motocarros Torito y Maxima Cargo, distribuidos en Colombia por Grupo UMA.",
+      "grupos": [
         {
-          "nombre": "Boxer CT100 KS",
-          "img": "bajaj-boxer-ct100-ks",
-          "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-ks/"
+          "slug": "boxer",
+          "nombre": "Boxer",
+          "etiqueta": "Bajaj",
+          "modelos": [
+            {
+              "nombre": "Boxer CT100 KS",
+              "img": "bajaj-boxer-ct100-ks",
+              "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-ks/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "102 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "7.59 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8.24 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "4 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Tanque",
+                  "10,5 L"
+                ],
+                [
+                  "Peso",
+                  "109 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Boxer CT100 KS Boxer Racing",
+              "img": "bajaj-boxer-ct100-ks-boxer-racing",
+              "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-ks-boxer-racing/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "102 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "7.59 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8.24 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "4 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Tanque",
+                  "10,5 L"
+                ],
+                [
+                  "Peso",
+                  "109 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Boxer CT100 ES",
+              "img": "bajaj-boxer-ct100-es",
+              "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-es/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "102 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "7.59 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8.24 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "4 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Tanque",
+                  "10,5 L"
+                ],
+                [
+                  "Peso",
+                  "109 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Boxer CT100 ES Boxer Racing",
+              "img": "bajaj-boxer-ct100-es-boxer-racing",
+              "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-es-boxer-racing/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "102 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "7.59 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "8.24 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "4 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Tanque",
+                  "10,5 L"
+                ],
+                [
+                  "Peso",
+                  "109 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Boxer CT125 Sport",
+              "img": "bajaj-boxer-ct-125",
+              "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct-125/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.45 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "9.86 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "10.5 Nm @ 5500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco 200 mm con CBS"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor 110 mm con CBS"
+                ],
+                [
+                  "Tanque",
+                  "10,5 L"
+                ],
+                [
+                  "Peso",
+                  "117 kg"
+                ],
+                [
+                  "Capacidad de carga",
+                  "130 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Boxer 150X",
+              "img": "bajaj-boxer-150x",
+              "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-150x/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "144.8 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "11.84 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "12.55 Nm @ 5000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 240 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor 130 mm"
+                ],
+                [
+                  "Tanque",
+                  "11 L"
+                ],
+                [
+                  "Peso",
+                  "128 kg"
+                ]
+              ]
+            }
+          ]
         },
         {
-          "nombre": "Boxer CT100 ES",
-          "img": "bajaj-boxer-ct100-es",
-          "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct100-es/"
+          "slug": "discover",
+          "nombre": "Discover",
+          "etiqueta": "Bajaj",
+          "modelos": [
+            {
+              "nombre": "Discover 125 Sport",
+              "img": "bajaj-discover-125-sport",
+              "fabricante": "https://grupouma.com/colombia/motos/discover/discover-125-sport/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.6 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "12.82 HP @ 9000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "10.79 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 200 mm con CBS"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor 130 mm con CBS"
+                ],
+                [
+                  "Tanque",
+                  "10 L"
+                ],
+                [
+                  "Peso",
+                  "127 kg"
+                ]
+              ]
+            }
+          ]
         },
         {
-          "nombre": "Boxer CT125",
-          "img": "bajaj-boxer-ct125",
-          "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-ct-125/"
+          "slug": "pulsar",
+          "nombre": "Pulsar",
+          "etiqueta": "Bajaj",
+          "modelos": [
+            {
+              "nombre": "Pulsar N125 Carburada",
+              "img": "bajaj-pulsar-n125-carburada",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-n125-carburada/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,59 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "11.53 HP @ 8000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "11 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 240 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor con CBS"
+                ],
+                [
+                  "Tanque",
+                  "9.5 L"
+                ],
+                [
+                  "Peso",
+                  "125 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar N125 FI",
+              "img": "bajaj-pulsar-n125-fi",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-n125-fi/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124,59 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "11.84 HP @ 6000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "11 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 240 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor con CBS"
+                ],
+                [
+                  "Tanque",
+                  "9.5 L"
+                ],
+                [
+                  "Peso",
+                  "125 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar NS 125",
+              "img": "bajaj-pulsar-ns-125",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns-125/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "124.45 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "12 HP @ 8500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "11 Nm @ 7000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 240 mm con CBS"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor de 130 mm"
+                ],
+                [
+                  "Tanque",
+                  "12 L"
+                ],
+                [
+                  "Peso",
+                  "141 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar P150",
+              "img": "bajaj-pulsar-p150",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-p150/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "149.68 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "14.3 HP @ 8500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "13.5 Nm @ 6000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "Disco de 260 mm, ABS un solo canal"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 230 mm"
+                ],
+                [
+                  "Tanque",
+                  "14 L"
+                ],
+                [
+                  "Peso",
+                  "140 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar N160 Pro",
+              "img": "bajaj-pulsar-n160-pro",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-n160-pro/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "164,82 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "15,78 HP @ 8750 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "14,65 Nm @ 6750 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades 1 hacia abajo, 4 hacia arriba"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "ABS, Disco de 300 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "ABS, Disco de 230 mm"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar NS 160 FI ABS",
+              "img": "bajaj-pulsar-ns-160-fi-abs-2027",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns-160-fi-abs-2027/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "160.3 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "16.75 HP @ 9000 ± 250 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "14.6 Nm @ 7250 ± 250 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "5 velocidades (1 hacia abajo, 4 hacia arriba)"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "ABS, Disco de 300 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "ABS, Disco de 230 mm"
+                ],
+                [
+                  "Tanque",
+                  "12 L"
+                ],
+                [
+                  "Peso",
+                  "152 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar NS200 FI ABS DC",
+              "img": "bajaj-pulsar-ns200-fi-abs-dc",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns200-fi-abs-dc/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199.4 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "24.16 HP @ 9750 ± 250 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "18.74 Nm @ 8000 ± 250 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "6 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "ABS, Disco de 300 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "ABS, Disco de 230 mm"
+                ],
+                [
+                  "Tanque",
+                  "12 L"
+                ],
+                [
+                  "Peso",
+                  "155 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar NS200 FI ABS SC",
+              "img": "bajaj-pulsar-ns200-fi-abs-sc",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns200-fi-abs-sc/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199.4 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "24,16 HP @ 9750 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "18,74 Nm @ 8000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "6 velocidades (1 hacia abajo, 5 hacia arriba)"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "ABS, Disco de 300 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Disco de 230 mm"
+                ],
+                [
+                  "Tanque",
+                  "12 L"
+                ],
+                [
+                  "Peso",
+                  "159 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar RS 200 FI ABS",
+              "img": "bajaj-pulsar-rs-200",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-rs-200/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "199.5 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "24.13 HP @ 9750 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "18.6 Nm @ 8000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "6 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "ABS, Disco de 320 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "ABS, Disco de 230 mm"
+                ],
+                [
+                  "Tanque",
+                  "13 L"
+                ],
+                [
+                  "Peso",
+                  "164 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Pulsar NS400Z",
+              "img": "bajaj-pulsar-ns400z",
+              "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns400z/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "373,27 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "43 HP @ 7500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "35 Nm @ 7000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "6 velocidades (1 hacia abajo, 5 hacia arriba)"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "ABS, Disco de 320 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "ABS, Disco 230 mm"
+                ],
+                [
+                  "Tanque",
+                  "12 L"
+                ],
+                [
+                  "Peso",
+                  "174 kg"
+                ]
+              ]
+            }
+          ]
         },
         {
-          "nombre": "Boxer 150X",
-          "img": "bajaj-boxer-150x",
-          "fabricante": "https://grupouma.com/colombia/motos/boxer/boxer-150x/"
+          "slug": "dominar",
+          "nombre": "Dominar",
+          "etiqueta": "Bajaj",
+          "modelos": [
+            {
+              "nombre": "Dominar 400 Touring",
+              "img": "bajaj-dominar-400-touring",
+              "fabricante": "https://grupouma.com/colombia/motos/dominar/dominar-400-touring/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "373.27 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "39.43 HP @ 8650 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "35 Nm @ 7000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "6 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "ABS, Disco de 320 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "ABS, Disco de 230 mm"
+                ],
+                [
+                  "Tanque",
+                  "13 L"
+                ],
+                [
+                  "Peso",
+                  "192 kg"
+                ]
+              ]
+            },
+            {
+              "nombre": "Dominar 400 Volcano",
+              "img": "bajaj-dominar-400-volcano",
+              "fabricante": "https://grupouma.com/colombia/motos/dominar/dominar-400-volcano/",
+              "tipo": "moto",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "373.27 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "39.43 HP @ 8800 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "35 Nm @ 6500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "6 velocidades"
+                ],
+                [
+                  "Alimentación",
+                  "Inyección Electrónica"
+                ],
+                [
+                  "Freno delantero",
+                  "ABS, Disco de 320 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "ABS, Disco de 230 mm"
+                ],
+                [
+                  "Tanque",
+                  "13 L"
+                ],
+                [
+                  "Peso",
+                  "192 kg"
+                ]
+              ]
+            }
+          ]
         },
         {
-          "nombre": "Discover 125 ST-R Sport",
-          "img": "bajaj-discover-125-st-r",
-          "fabricante": "https://grupouma.com/colombia/motos/discover/discover-125-sport/"
-        },
-        {
-          "nombre": "Pulsar NS 125",
-          "img": "bajaj-pulsar-ns125",
-          "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns-125/"
-        },
-        {
-          "nombre": "Pulsar N125 FI",
-          "img": "bajaj-pulsar-n125-fi",
-          "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-n125-fi/"
-        },
-        {
-          "nombre": "Pulsar NS 160 FI",
-          "img": "bajaj-pulsar-ns160-fi",
-          "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns-160-fi/"
-        },
-        {
-          "nombre": "Pulsar NS200 FI ABS SC",
-          "img": "bajaj-pulsar-ns200-fi-abs",
-          "fabricante": "https://grupouma.com/colombia/motos/pulsar/pulsar-ns200-fi-abs-sc/"
+          "slug": "carga",
+          "nombre": "Motocarros y carga",
+          "etiqueta": "Bajaj",
+          "modelos": [
+            {
+              "nombre": "Torito",
+              "img": "bajaj-torito",
+              "fabricante": "https://grupouma.com/colombia/motos/torito/torito/",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "198.88 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10.19 HP @ 5000 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "17 Nm @ 3500 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "4 velocidades + Reversa"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor"
+                ],
+                [
+                  "Tanque",
+                  "10,5 L"
+                ]
+              ]
+            },
+            {
+              "nombre": "Maxima Cargo",
+              "img": "bajaj-maxima-cargo",
+              "fabricante": "https://grupouma.com/colombia/motos/maxima-cargo/maxima-cargo/",
+              "tipo": "motocarro",
+              "specs": [
+                [
+                  "Cilindraje",
+                  "236.2 cc"
+                ],
+                [
+                  "Potencia máxima",
+                  "10.72 HP @ 4500 rpm"
+                ],
+                [
+                  "Torque máximo",
+                  "20.1 Nm @ 3000 rpm"
+                ],
+                [
+                  "Transmisión",
+                  "4 velocidades + Reversa"
+                ],
+                [
+                  "Alimentación",
+                  "Carburador"
+                ],
+                [
+                  "Freno delantero",
+                  "Tambor de 200 mm"
+                ],
+                [
+                  "Freno trasero",
+                  "Tambor de 200 mm"
+                ],
+                [
+                  "Tanque",
+                  "12 L"
+                ],
+                [
+                  "Peso",
+                  "495 kg"
+                ],
+                [
+                  "Capacidad de carga",
+                  "500 kg más el conductor"
+                ]
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "nombre_seo": "Bajaj Boxer, Pulsar, Discover, Dominar y motocarros Torito"
     },
     {
       "slug": "honda",
@@ -2587,7 +3495,8 @@
             }
           ]
         }
-      ]
+      ],
+      "logos_en_inicio": true
     },
     {
       "slug": "yamaha",
