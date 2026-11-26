@@ -67,6 +67,7 @@ def nav(actual):
       </details>
       <a href="/tecnologia/"{act("tecnologia")}>Tecnología</a>
       <a href="/medios-de-pago/"{act("medios-de-pago")}>Medios de pago</a>
+      <a href="/paz-y-salvo/"{act("paz-y-salvo")}>Paz y salvo</a>
       {boton_wa("Hola, quiero información sobre el crédito con COMERCIACOR.", "Escríbenos", "boton-sm")}
     </nav>
   </div>
@@ -90,6 +91,7 @@ def pie():
           <li>WhatsApp: <a href="{e(wa())}" target="_blank" rel="noopener">{e(EMP["whatsapp_visible"])}</a></li>
           <li>Instagram: <a href="https://www.instagram.com/{e(EMP["instagram"])}/" target="_blank" rel="noopener">@{e(EMP["instagram"])}</a></li>
           <li><a href="/medios-de-pago/">Medios de pago</a></li>
+          <li><a href="/paz-y-salvo/">Solicitar paz y salvo</a></li>
         </ul>
       </div>
       <div>
@@ -418,6 +420,53 @@ cuerpo = f"""
 rutas.append(pagina("/medios-de-pago/", "Medios de pago | COMERCIACOR",
                     "Cuentas Bancolombia y Davivienda de COMERCIACOR S.A.S., pagos con tarjeta por Wompi y cupo ADDI.",
                     "medios-de-pago", cuerpo))
+
+# ---------------- Paz y salvo (el formulario habla con el CRM: crm.comerciacor.com) ----------------
+cuerpo = f"""
+<section class="cabecera-pagina">
+  <div class="contenedor">
+    <p class="migas"><a href="/">Inicio</a> / Paz y salvo</p>
+    <h1>Solicita tu paz y salvo</h1>
+    <p>Si ya terminaste de pagar tu crédito, solicita aquí el paz y salvo de tu obligación. Te llega a tu correo electrónico en minutos.</p>
+  </div>
+</section>
+<section class="seccion">
+  <div class="contenedor ps-grid">
+    <div class="ps-caja">
+      <form id="ps-form" class="ps-form" novalidate>
+        <div class="ps-campo"><label for="ps-cedula">Número de cédula</label><input id="ps-cedula" name="cedula" inputmode="numeric" autocomplete="off" maxlength="15" required><span class="ps-err" data-err="cedula"></span></div>
+        <div class="ps-campo"><label for="ps-nombre">Nombres y apellidos completos</label><input id="ps-nombre" name="nombre" autocomplete="name" maxlength="120" required><span class="ps-err" data-err="nombre"></span></div>
+        <div class="ps-campo"><label for="ps-celular">Número de celular</label><input id="ps-celular" name="celular" type="tel" inputmode="numeric" autocomplete="tel" maxlength="13" placeholder="3001234567" required><span class="ps-ayuda">El que registraste en COMERCIACOR. Te enviaremos un código de confirmación por mensaje de texto.</span><span class="ps-err" data-err="celular"></span></div>
+        <div class="ps-campo"><label for="ps-email">Correo electrónico</label><input id="ps-email" name="email" type="email" autocomplete="email" maxlength="120" required><span class="ps-ayuda">Aquí te enviaremos el paz y salvo.</span><span class="ps-err" data-err="email"></span></div>
+        <label class="ps-check"><input type="checkbox" name="acepta"> <span>Autorizo a COMERCIACOR S.A.S. a tratar estos datos para verificar mi identidad y enviarme el paz y salvo, según su <a href="/politica-datos-personales/" target="_blank" rel="noopener">política de tratamiento de datos personales</a>.</span></label>
+        <span class="ps-err" data-err="acepta"></span>
+        <button class="boton boton-azul" type="submit">Enviar código a mi celular</button>
+      </form>
+      <form id="ps-codigo" class="ps-form" novalidate hidden>
+        <p id="ps-codigo-txt"></p>
+        <div class="ps-campo"><label for="ps-cod">Código de confirmación</label><input id="ps-cod" name="codigo" inputmode="numeric" autocomplete="one-time-code" maxlength="6" required></div>
+        <button class="boton boton-azul" type="submit">Confirmar y recibir mi paz y salvo</button>
+        <button class="ps-link" type="button" id="ps-volver">Corregir mis datos o pedir un código nuevo</button>
+      </form>
+      <div id="ps-msg" class="ps-msg" role="status" aria-live="polite" hidden></div>
+    </div>
+    <div class="ps-info">
+      <h2>¿Cómo funciona?</h2>
+      <ol>
+        <li>Escribe tu cédula, nombres y apellidos, celular y correo.</li>
+        <li>Te enviamos un código por mensaje de texto al celular que registraste en COMERCIACOR.</li>
+        <li>Escribe el código y recibe tu paz y salvo en PDF en tu correo.</li>
+      </ol>
+      <p>El paz y salvo se expide <strong>una sola vez</strong> por cada obligación pagada en su totalidad. Guárdalo bien.</p>
+      <p>¿Tienes dudas o cambiaste de celular? Escríbenos y te ayudamos.</p>
+      {boton_wa("Hola, necesito ayuda con mi paz y salvo.", "Escríbenos")}
+    </div>
+  </div>
+</section>
+<script src="/assets/js/paz-y-salvo.js" defer></script>"""
+rutas.append(pagina("/paz-y-salvo/", "Solicita tu paz y salvo | COMERCIACOR",
+                    "Solicita en línea el paz y salvo de tu crédito con COMERCIACOR S.A.S. y recíbelo en tu correo.",
+                    "paz-y-salvo", cuerpo))
 
 # ---------------- Páginas legales ----------------
 def md_a_html(texto):

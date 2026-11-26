@@ -229,3 +229,28 @@ a.marca:hover { border-color: var(--navy); }
 .filtro-marcas.saltos a { background: var(--placa); border-color: #111; color: #111; }
 .filtro-marcas.saltos { margin-bottom: 4px; }
 .marca-texto { font-family: var(--f-titulo); font-weight: 700; font-size: 1.9rem; color: var(--navy); }
+
+/* ---------- Paz y salvo ---------- */
+.ps-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 48px); align-items: start; }
+.ps-caja { background: var(--blanco); border: 1px solid var(--linea); border-radius: 12px; padding: clamp(18px, 3vw, 28px); }
+.ps-form { display: grid; gap: 16px; }
+.ps-campo { display: grid; gap: 6px; }
+.ps-campo label { font-weight: 600; color: var(--navy); }
+.ps-campo input { font: inherit; padding: .75em .9em; border: 1px solid var(--linea); border-radius: 8px; background: #fff; color: var(--texto); width: 100%; }
+.ps-campo input:focus { outline: 2px solid var(--azul); outline-offset: 1px; border-color: var(--azul); }
+.ps-ayuda { font-size: .9rem; color: var(--suave); }
+.ps-err { font-size: .9rem; color: #B42318; font-weight: 600; }
+.ps-err:empty { display: none; }
+.ps-check { display: flex; gap: 10px; align-items: flex-start; font-size: .95rem; color: var(--suave); }
+.ps-check input { margin-top: .25em; width: 18px; height: 18px; flex: none; }
+.ps-form .boton { justify-self: start; }
+.boton-azul { background: var(--navy); color: #fff; }
+.boton-azul:hover { background: var(--navy-hondo); }
+.boton-azul:disabled { opacity: .6; cursor: wait; }
+.ps-link { background: none; border: 0; padding: 0; color: var(--azul); font: inherit; font-size: .95rem; text-decoration: underline; cursor: pointer; justify-self: start; }
+.ps-msg { margin-top: 16px; padding: 14px 16px; border-radius: 8px; background: var(--niebla); color: var(--texto); }
+.ps-msg.ps-error { background: #FEF3F2; color: #B42318; border: 1px solid #FECDCA; }
+.ps-msg.ps-ok { background: #ECFDF3; color: #05603A; border: 1px solid #ABEFC6; font-weight: 600; }
+.ps-info ol { padding-left: 1.2em; line-height: 1.7; }
+@media (max-width: 800px) { .ps-grid { grid-template-columns: 1fr; } }
+.ps-form[hidden], .ps-msg[hidden] { display: none; }
