@@ -458,6 +458,7 @@ cuerpo = f"""
         <li>Escribe el código y recibe tu paz y salvo en PDF en tu correo.</li>
       </ol>
       <p>El paz y salvo se expide <strong>una sola vez</strong> por cada obligación pagada en su totalidad. Guárdalo bien.</p>
+      <p>¿Recibiste un paz y salvo de COMERCIACOR y quieres comprobar que es auténtico? <a href="/verificar-paz-y-salvo/">Verifícalo aquí</a> con el código que trae al pie.</p>
       <p>¿Tienes dudas o cambiaste de celular? Escríbenos y te ayudamos.</p>
       {boton_wa("Hola, necesito ayuda con mi paz y salvo.", "Escríbenos")}
     </div>
@@ -466,6 +467,37 @@ cuerpo = f"""
 <script src="/assets/js/paz-y-salvo.js" defer></script>"""
 rutas.append(pagina("/paz-y-salvo/", "Solicita tu paz y salvo | COMERCIACOR",
                     "Solicita en línea el paz y salvo de tu crédito con COMERCIACOR S.A.S. y recíbelo en tu correo.",
+                    "paz-y-salvo", cuerpo))
+
+# ---------------- Verificar un paz y salvo (cualquier persona; consulta al CRM) ----------------
+cuerpo = """
+<section class="cabecera-pagina">
+  <div class="contenedor">
+    <p class="migas"><a href="/">Inicio</a> / <a href="/paz-y-salvo/">Paz y salvo</a> / Verificar</p>
+    <h1>Verificar un paz y salvo</h1>
+    <p>Compruebe que un paz y salvo fue expedido por COMERCIACOR S.A.S. Escriba el código de verificación que aparece al pie del documento.</p>
+  </div>
+</section>
+<section class="seccion">
+  <div class="contenedor ps-grid">
+    <div class="ps-caja">
+      <form id="vps-form" class="ps-form" novalidate>
+        <div class="ps-campo"><label for="vps-codigo">Código de verificación</label><input id="vps-codigo" name="codigo" autocomplete="off" maxlength="20" placeholder="Ej. 73C09CC416" style="text-transform:uppercase" required></div>
+        <button class="boton boton-azul" type="submit">Verificar</button>
+      </form>
+      <div id="vps-res" class="ps-msg" role="status" aria-live="polite" hidden></div>
+    </div>
+    <div class="ps-info">
+      <h2>¿Qué se comprueba?</h2>
+      <p>Si el código corresponde a un paz y salvo expedido por COMERCIACOR, verá su número, la fecha de expedición, la obligación y el titular. Compárelos con el documento que tiene en sus manos.</p>
+      <p>Si el código no existe o los datos no coinciden, el documento no es válido. Ante cualquier duda comuníquese al 310 587 3423.</p>
+      <p><a href="/paz-y-salvo/">¿Necesita su paz y salvo? Solicítelo aquí.</a></p>
+    </div>
+  </div>
+</section>
+<script src="/assets/js/verificar-paz-y-salvo.js" defer></script>"""
+rutas.append(pagina("/verificar-paz-y-salvo/", "Verificar un paz y salvo | COMERCIACOR",
+                    "Compruebe la autenticidad de un paz y salvo expedido por COMERCIACOR S.A.S. con su código de verificación.",
                     "paz-y-salvo", cuerpo))
 
 # ---------------- Páginas legales ----------------
